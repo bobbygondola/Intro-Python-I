@@ -12,11 +12,11 @@ print(x.append(4))
 
 # Using y, change x so that it is [1, 2, 3, 4, 8, 9, 10]
 # YOUR CODE HERE
-print(x)
+print(x + y)
 
 # Change x so that it is [1, 2, 3, 4, 9, 10]
 # YOUR CODE HERE
-# print(x)
+print(y[0])
 
 # # Change x so that it is [1, 2, 3, 4, 9, 99, 10]
 # # YOUR CODE HERE
@@ -28,10 +28,5 @@ print(int(len(x)))
 
 # Print all the values in x multiplied by 1000
 # YOUR CODE HERE
-newList = []
-
-for i in range(x):
-    if i > 0:
-        i * 1000
-        
+newList = [i * 1000 for i in x]
 print(newList)
