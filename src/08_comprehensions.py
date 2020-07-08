@@ -32,7 +32,7 @@ print(y)
 # Use a list comprehension to create a list containing only the _even_ elements
 # the user entered into list x.
 
-x = input[1,2,3,4,5,6,7,8,9,10]
+x = input("Input any number seperated by commas").split(",")
 # What do you need between the square brackets to make it work?
-y = [i for i in a if i % 2 == 0]
+y = [int(i) for i in x if int(i) % 2 == 0]
 print(y)

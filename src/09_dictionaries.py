@@ -38,7 +38,7 @@ waypoints = [
 new_waypoint = {
     "lat": 50,
     "lon": -130,
-    "name": "not a real palce"
+    "name": "not a real place"
 }
 
 waypoints.append(new_waypoint)
